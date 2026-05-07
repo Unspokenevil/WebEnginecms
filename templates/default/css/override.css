@@ -21,6 +21,7 @@
 a:focus, a:hover {
     color: inherit !important;
     text-decoration: none !important;
+	outline: none !important;
 }
 
 .form-control {
@@ -46,13 +47,13 @@ a:focus, a:hover {
 }
 
 .thumbnail {
-    background-color: #f1f1f1;
-    border: 1px solid #e3e3e3;
+    background-color: var(--webenginecolor27);
+    border: 1px solid var(--webenginecolor16);
 }
 a.thumbnail:hover,
 a.thumbnail:focus,
 a.thumbnail.active {
-  border-color: #ff0000;
+  border-color: var(--webenginecolor1);
 }
 
 .btn-primary {
