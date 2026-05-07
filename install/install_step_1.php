@@ -32,7 +32,7 @@ echo '<div class="list-group">';
 	$chk_1 = version_compare(PHP_VERSION, '8.2', '>=');
 	$check_1 = ($chk_1 ? '<span class="label label-success">Ok</span>' : '<span class="label label-danger">Fix</span>');
 	echo '<div class="list-group-item">';
-		echo 'PHP 8.1 or higher';
+		echo 'PHP 8.2 or higher';
 		echo '<span class="pull-right">(PHP '.PHP_VERSION.') '.$check_1.'</span>';
 	echo '</div>';
 
